@@ -1,0 +1,4 @@
+exec_test_libft
+.DS_Store
+a.out
+*.o
