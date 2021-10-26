@@ -12,7 +12,7 @@
 
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror
-LIB = ../src/libft.a
+LIB = ../libft/libft.a
 SRC = ${wildcard *.c}
 NAME = exec_test_libft
 
