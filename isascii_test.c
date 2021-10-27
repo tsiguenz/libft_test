@@ -6,28 +6,29 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/25 13:43:38 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/10/25 14:44:11 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/10/27 02:06:16 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test_libft.h"
 # define FILE "is_ascii"
+# define MY_FT(a)	bool_test(ft_isascii(a))
+# define REAL_FT(a)	bool_test(isascii(a))
 
 void	isascii_test(void)
 {
         int i;
 
         i = 1;
-        print_test(ft_isascii(-20), isascii(-20), FILE, i++);
-        print_test(ft_isascii(0), isascii(0), FILE, i++);
-        print_test(ft_isascii(47), isascii(47), FILE, i++);
-	    print_test(ft_isascii(127), isascii(127), FILE, i++);
-        print_test(ft_isascii(128), isascii(128), FILE, i++);
-        print_test(ft_isascii(254), isascii(254), FILE, i++);
-        print_test(ft_isascii(255), isascii(255), FILE, i++);
-        print_test(ft_isascii(256), isascii(256), FILE, i++);
-        print_test(ft_isascii(-2147483648), isascii(-2147483648), FILE, i++);
-        print_test(ft_isascii(2147483647), isascii(2147483647), FILE, i++);
+        print_test(MY_FT(-20), REAL_FT(-20), FILE, i++);
+        print_test(MY_FT(-1), REAL_FT(-1), FILE, i++);
+        print_test(MY_FT(0), REAL_FT(0), FILE, i++);
+       	print_test(MY_FT(47), REAL_FT(47), FILE, i++);
+	print_test(MY_FT(127), REAL_FT(127), FILE, i++);
+        print_test(MY_FT(128), REAL_FT(128), FILE, i++);
+        print_test(MY_FT(254), REAL_FT(254), FILE, i++);
+        print_test(MY_FT(255), REAL_FT(255), FILE, i++);
+        print_test(MY_FT(256), REAL_FT(256), FILE, i++);
         printf("\n");
 
 }

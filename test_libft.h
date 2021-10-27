@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/10/25 15:02:41 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/10/26 23:44:24 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-#include "../src/libft.h"
+#include "../libft/libft.h"
 
 void    print_test(int my_ft, int real_ft, char *ft_name, int i);
+int	bool_test(int c);
 void	isalpha_test(void);
 void	isdigit_test(void);
 void	isalnum_test(void);

@@ -1,25 +1,16 @@
-
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main_test.c                                        :+:      :+:    :+:   */
+/*   bool_test.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tsiguenz <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/07 20:03:24 by thibautsi         #+#    #+#             */
-/*   Updated: 2021/10/26 23:45:47 by debian           ###   ########.fr       */
+/*   Created: 2021/10/26 22:36:04 by tsiguenz          #+#    #+#             */
+/*   Updated: 2021/10/26 23:43:55 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "test_libft.h"
-
-int	main(void)
+int	bool_test(int i)
 {
-    isalpha_test();
-    isdigit_test();
-    isalnum_test();
-    isascii_test();
-    isprint_test();
-    strlen_test();
-    return (0);
+	return(i == 0) ? 0 : 1;
 }
