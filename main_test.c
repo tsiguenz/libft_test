@@ -21,5 +21,6 @@ int	main(void)
     isascii_test();
     isprint_test();
     strlen_test();
+//  memset_test();
     return (0);
 }
