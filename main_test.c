@@ -22,5 +22,12 @@ int	main(void)
     isprint_test();
     strlen_test();
 //  memset_test();
+//  bzero_test();
+//  memcpy_test();
+//  memmove_test();
+//  strlcpy_test();
+//  strlcat_test();
+    toupper_test();
+    tolower_test();
     return (0);
 }
