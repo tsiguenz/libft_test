@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/10/26 23:44:24 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/06 02:33:35 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,7 @@ void	isalnum_test(void);
 void	isascii_test(void);
 void	isprint_test(void);
 void    strlen_test(void);
+void	tolower_test(void);
+void	toupper_test(void);
 
 #endif //TEST_LIBFT_H
