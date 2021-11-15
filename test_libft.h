@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/14 19:30:25 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/15 01:23:29 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,9 @@ void	isprint_test(void);
 void    strlen_test(void);
 void	memset_test(void);
 void	bzero_test(void);
+void	memcpy_test(void);
 void	tolower_test(void);
 void	toupper_test(void);
+void	memmove_test(void);
 
 #endif //TEST_LIBFT_H

@@ -1,0 +1,3 @@
+- test bzero avec memcmp
+- trouver des cas de difference entre memcpy et memmove et les tester
+
