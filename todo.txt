@@ -1,1 +1,7 @@
 - test bzero avec memcmp
+- utiliser print_ptr_test pour les fonctions qui retournent un pointeur
+
+
+// Fin du projet
+- refactoriser le projet avec sous dossier utils/src/header
+- créer une sortie de test sur une seul ligne par fct : tolower : [OK] [OK] [OK] [KO]

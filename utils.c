@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:08:03 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/15 00:29:05 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/17 01:19:24 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,5 +84,18 @@ void	print_int_tab(int *tab, int tab_len)
 		if(i != tab_len -1)
 			printf(" ");
 		i++;
+	}
+}
+
+void	print_ptr_test(void *my_ptr, void *real_ptr, char *ft_name, int i)
+{
+	if (my_ptr == real_ptr)
+	{
+		printf(GREEN);
+		printf("OK %s %d : my_ptr = [%p] real_ptr : [%p]\n", ft_name, i, my_ptr, real_ptr);
+	} else 
+	{
+		printf(RED);
+		printf("K0 %s %d : my_ptr = [%p] real_ptr : [%p]\n", ft_name, i, my_ptr, real_ptr);
 	}
 }
