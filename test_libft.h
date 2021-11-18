@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/17 16:13:59 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/18 01:08:05 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,8 @@
 
 #include <stdio.h>
 #include <ctype.h>
-#include <string.h>
+#include <bsd/string.h>
+#include <stdlib.h>
 #include "../libft/libft.h"
 
 //utils fct
@@ -53,5 +54,7 @@ void	strrchr_test(void);
 void	strncmp_test(void);
 void	memchr_test(void);
 void	memcmp_test(void);
+void	strnstr_test(void);
+void	atoi_test(void);
 
 #endif //TEST_LIBFT_H
