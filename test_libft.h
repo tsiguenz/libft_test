@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/18 01:08:05 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/21 22:21:08 by debian           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,5 +56,6 @@ void	memchr_test(void);
 void	memcmp_test(void);
 void	strnstr_test(void);
 void	atoi_test(void);
+void	calloc_test(void);
 
 #endif //TEST_LIBFT_H
