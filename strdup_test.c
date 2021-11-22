@@ -1,30 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   calloc_test.c                                      :+:      :+:    :+:   */
+/*   strdup_test.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: debian <marvin@42.fr>                      +#+  +:+       +#+        */
+/*   By: tsiguenz <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/21 22:06:54 by debian            #+#    #+#             */
-/*   Updated: 2021/11/22 18:44:53 by tsiguenz         ###   ########.fr       */
+/*   Created: 2021/11/22 18:43:52 by tsiguenz          #+#    #+#             */
+/*   Updated: 2021/11/22 19:01:51 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "test_libft.h"
-# define FILE "calloc"
-# define PRINT_TAB_TEST	print_tab_test
+# define FILE "strdup"
 # define PRINT_STR_TEST	print_str_test
 
-void	calloc_test(void)
+void	strdup_test(void)
 {
 	int i = 1;
 
-	int	*mytab1 = ft_calloc(5, 4);
-	int	*tab1 = calloc(5, 4);
-	char	*mystr1 = ft_calloc(10, 1);
-	char	*str1 = calloc(10, 1);
-	
-	PRINT_TAB_TEST( mytab1, tab1, 5, FILE, i++);
-	PRINT_STR_TEST( mystr1, str1, FILE, i++);
+	char	mystr1[] = "Hello World";
+	char	str1[] = "Hello World";
+	char	mystr2[] = "";
+	char	str2[] = "";
+
+	PRINT_STR_TEST( ft_strdup(mystr1), strdup(str1), FILE, i++);
+	PRINT_STR_TEST( ft_strdup(mystr2), strdup(str2), FILE, i++);
 	printf("\n");
 }

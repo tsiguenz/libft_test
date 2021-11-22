@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 20:03:24 by thibautsi         #+#    #+#             */
-/*   Updated: 2021/11/21 22:20:45 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/22 19:09:07 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,5 +36,7 @@ int	main(void)
 	strnstr_test();
 	atoi_test();
 	calloc_test();
+	strdup_test();
+	substr_test();
 	return (0);
 }
