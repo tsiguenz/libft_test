@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/23 17:47:48 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/23 19:58:35 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,13 @@
 
 #include <stdio.h>
 #include <ctype.h>
-#include <bsd/string.h>
 #include <stdlib.h>
 #include "../libft/libft.h"
-
+#ifdef __linux__
+	#include <bsd/string.h>
+#else
+	#include <string.h>
+#endif
 //utils fct
 
 void    print_int_test(int my_ft, int real_ft, char *ft_name, int i);
