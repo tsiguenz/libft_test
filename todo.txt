@@ -1,6 +1,7 @@
 - test bzero avec memcmp
 - utiliser print_ptr_test pour les fonctions qui retournent un pointeur
 - changer les unsigned int par size_t dans les fonctions qui l'utilise
+- supprimer les includes et les regrouper tous dans le .h
 
 // Fin du projet
 - refactoriser le projet avec sous dossier utils/src/header
