@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/23 19:58:35 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/24 16:25:16 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,8 @@ void	substr_test(void);
 void	strjoin_test(void);
 void	strtrim_test(void);
 void	split_test(void);
-//void	itoa_test(void);
+void	itoa_test(void);
+void	strmapi_test(void);
+void	striteri_test(void);
 
 #endif //TEST_LIBFT_H

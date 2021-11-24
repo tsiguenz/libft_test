@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 20:03:24 by thibautsi         #+#    #+#             */
-/*   Updated: 2021/11/23 17:47:41 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/24 16:25:45 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,6 +41,8 @@ int	main(void)
 	strjoin_test();
 	strtrim_test();
 	split_test();
-//	itoa_test();
+	itoa_test();
+	strmapi_test();
+	striteri_test();
 	return (0);
 }
