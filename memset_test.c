@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 23:41:13 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/14 19:54:03 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/24 18:33:00 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@
 
 void	memset_test(void)
 {
-        int i = 1;
+	int i = 1;
 
 	char	mystr1[] = "Hello World";
 	char	str1[] = "Hello World";
@@ -36,5 +36,5 @@ void	memset_test(void)
 	PRINT_TAB_TEST(mytab1, tab1, 5, FILE, i++);
 	PRINT_TAB_TEST(ft_memset(mytab2, 0, 12), memset(tab2, 0, 12), 5, FILE, i++);
 	PRINT_TAB_TEST(mytab2, tab2, 5, FILE, i++);
-        printf("\n");
+	printf("\n");
 }

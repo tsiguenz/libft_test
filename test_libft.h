@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/24 16:25:16 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/24 17:49:48 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,8 +32,8 @@ void    print_int_test(int my_ft, int real_ft, char *ft_name, int i);
 void    print_str_test(char *my_ft, char *real_ft, char *ft_name, int i);
 void	print_tab_test(int *my_tab, int *real_tab, int tab_len, char *ft_name, int i);
 void	print_int_tab(int *tab, int tab_len);
-int	bool_test(int c);
-int	tab_cmp(int *tab1, int *tab2, int tab_len);
+int		bool_test(int c);
+int		tab_cmp(int *tab1, int *tab2, int tab_len);
 void	print_ptr_test(void *my_ptr, void *real_ptr, char *ft_name, int i);
 
 // libft fct
