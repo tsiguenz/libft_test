@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:08:03 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/17 01:19:24 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/25 13:57:00 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,10 @@ void    print_int_test(int my_ft, int real_ft, char *ft_name, int i)
 		printf("OK %s %d : my_ft = [%d] real_ft :[%d]\n", ft_name, i, my_ft, real_ft);
 	} else 
 	{
-        	printf(RED);
+        printf(RED);
 		printf("K0 %s %d : my_ft = [%d] real_ft : [%d]\n", ft_name, i, my_ft, real_ft);
 	}
+	printf(DEFAULT_COLOR);
 }
 
 void	print_str_test(char *my_str, char *real_str, char *ft_name, int i)
@@ -36,6 +37,7 @@ void	print_str_test(char *my_str, char *real_str, char *ft_name, int i)
 		printf(RED);
 		printf("K0 %s %d : my_str = [%s] real_str : [%s]\n", ft_name, i, my_str, real_str);
 	}
+	printf(DEFAULT_COLOR);
 }
 void	print_tab_test(int *my_tab, int *real_tab, int tab_len, char *ft_name, int i)
 {
@@ -52,6 +54,7 @@ void	print_tab_test(int *my_tab, int *real_tab, int tab_len, char *ft_name, int 
 	printf("] real_tab : ["); 
 	print_int_tab(real_tab, tab_len);
 	printf("]\n");
+	printf(DEFAULT_COLOR);
 }
 
 int	bool_test(int i)
@@ -98,4 +101,5 @@ void	print_ptr_test(void *my_ptr, void *real_ptr, char *ft_name, int i)
 		printf(RED);
 		printf("K0 %s %d : my_ptr = [%p] real_ptr : [%p]\n", ft_name, i, my_ptr, real_ptr);
 	}
+	printf(DEFAULT_COLOR);
 }

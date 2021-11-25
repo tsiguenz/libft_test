@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/22 11:16:20 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/24 17:49:48 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/25 13:53:22 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,14 @@
 # define RED      "\033[1;31m"
 # define GREEN    "\033[1;32m"
 # define DEFAULT_COLOR "\033[0;m"
+# define BUFF_SIZE 17
 
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
 #include "../libft/libft.h"
 #ifdef __linux__
 	#include <bsd/string.h>
@@ -68,5 +72,6 @@ void	split_test(void);
 void	itoa_test(void);
 void	strmapi_test(void);
 void	striteri_test(void);
+void	fd_test(void);
 
 #endif //TEST_LIBFT_H
