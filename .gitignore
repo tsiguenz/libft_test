@@ -3,3 +3,4 @@ exec_test_libft
 a.out
 *.o
 *.swp
+.nfs*

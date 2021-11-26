@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 13:24:31 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/25 14:05:46 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/26 15:33:31 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,6 @@ void	fd_test()
 	close(fd);
 // Tests
 	PRINT_STR_TEST(str, "aputstrputendl\n42", FILE, i);
-
 	remove("test_fd.txt");
+	printf("\n");
 }
