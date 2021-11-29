@@ -6,7 +6,7 @@
 /*   By: debian <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 00:01:05 by debian            #+#    #+#             */
-/*   Updated: 2021/11/18 00:50:57 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/29 21:16:12 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ void	strnstr_test(void)
 	const char	little3[] = "Hello";
 	const char	big4[] = "";
 	const char	little4[] = "Hello";
+	const char	big5[] = "lorem ipsum dolor sit amet";
+	const char	little5[] = "dolor";
 
 	PRINT_STR_TEST(ft_strnstr(big1, little1, 8), strnstr(big1, little1, 8), FILE, i++);
 	PRINT_STR_TEST(ft_strnstr(big2, little2, 8), strnstr(big2, little2, 8), FILE, i++);
@@ -37,5 +39,6 @@ void	strnstr_test(void)
 	PRINT_STR_TEST(ft_strnstr(big3, little3, 8), strnstr(big3, little3, 8), FILE, i++);
 	PRINT_STR_TEST(ft_strnstr(big3, little3, 5), strnstr(big3, little3, 5), FILE, i++);
 	PRINT_PTR_TEST(ft_strnstr(big4, little4, 8), strnstr(big4, little4, 8), FILE, i++);
+	PRINT_PTR_TEST(ft_strnstr(big5, little5, 15), strnstr(big5, little5, 15), FILE, i++);
 	printf("\n");
 }

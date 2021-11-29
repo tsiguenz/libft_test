@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 13:31:15 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/17 14:40:38 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/29 17:18:20 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,5 +31,7 @@ void	strncmp_test(void)
 	PRINT_INT_TEST(ft_strncmp(str3, str4, 6), strncmp(str3, str4, 6), FILE, i++);
 	PRINT_INT_TEST(ft_strncmp(str5, str6, 0), strncmp(str5, str6, 0), FILE, i++);
 	PRINT_INT_TEST(ft_strncmp(str1, str6, 5), strncmp(str1, str6, 5), FILE, i++);
+	PRINT_INT_TEST(ft_strncmp("test", "testss", 7), strncmp("test", "testss", 7), FILE, i++);
+	PRINT_INT_TEST(ft_strncmp("test\200", "test\0", 6), strncmp("test\200", "test\0", 6), FILE, i++);
 	printf("\n");
 }

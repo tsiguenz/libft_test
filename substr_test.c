@@ -6,7 +6,7 @@
 /*   By: tsiguenz <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 19:04:28 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/23 00:08:19 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/29 22:09:50 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,10 @@ void	substr_test(void)
 
 	char	str1[] = "Hello World";
 	char	str2[] = "";
+	char	str3[] = "lorem ipsum dolor sit amet";
 
 	PRINT_STR_TEST(ft_substr(str1, 6, 5), "World", FILE, i++);
 	PRINT_STR_TEST(ft_substr(str2, 0, 0), "", FILE, i++);
+	PRINT_STR_TEST(ft_substr(str3, 400, 20), "", FILE, i++);
 	printf("\n");
 }

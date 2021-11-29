@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/24 11:02:13 by tsiguenz          #+#    #+#             */
-/*   Updated: 2021/11/24 14:53:11 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/29 23:40:30 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,8 @@ void	itoa_test(void)
 	PRINT_STR_TEST(ft_itoa(-0), "0", FILE, i++);
 	PRINT_STR_TEST(ft_itoa(2147483647), "2147483647", FILE, i++);
 	PRINT_STR_TEST(ft_itoa(-2147483648), "-2147483648", FILE, i++);
+	PRINT_STR_TEST(ft_itoa(-2147483648LL), "-2147483648", FILE, i++);
+	char *str = ft_itoa(-2147483648LL);
+	free(str);
 	printf("\n");
 }

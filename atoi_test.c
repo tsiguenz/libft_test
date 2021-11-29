@@ -6,7 +6,7 @@
 /*   By: debian <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 01:04:34 by debian            #+#    #+#             */
-/*   Updated: 2021/11/18 01:36:37 by debian           ###   ########.fr       */
+/*   Updated: 2021/11/29 21:53:53 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,6 @@ void	atoi_test(void)
 	PRINT_INT_TEST(ft_atoi(str5), atoi(str5), FILE, i++);
 	PRINT_INT_TEST(ft_atoi(str6), atoi(str6), FILE, i++);
 	PRINT_INT_TEST(ft_atoi(str7), atoi(str7), FILE, i++);
+	PRINT_INT_TEST(ft_atoi("\n\n\n  -46\b9 \n5d6"), atoi("\n\n\n  -46\b9 \n5d6"), FILE, i++);
 	printf("\n");
 }

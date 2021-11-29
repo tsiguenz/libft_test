@@ -6,7 +6,7 @@
 /*   By: tsiguenz <tsiguenz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/07 20:03:24 by thibautsi         #+#    #+#             */
-/*   Updated: 2021/11/26 12:47:22 by tsiguenz         ###   ########.fr       */
+/*   Updated: 2021/11/29 23:28:33 by tsiguenz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,37 +14,37 @@
 
 int	main(void)
 {
-	isalpha_test();
-	isdigit_test();
-	isalnum_test();
-	isascii_test();
-	isprint_test();
-	strlen_test();
-	memset_test();
-	bzero_test();
-	memcpy_test();
-	memmove_test();
-	strlcpy_test();
-	strlcat_test();
-	toupper_test();
-	tolower_test();
-	strchr_test();
-	strrchr_test();
-	strncmp_test();
-	memchr_test();
-	memcmp_test();
-	strnstr_test();
-	atoi_test();
-	calloc_test();
-	strdup_test();
-	substr_test();
-	strjoin_test();
+//	isalpha_test();
+//	isdigit_test();
+//	isalnum_test();
+//	isascii_test();
+//	isprint_test();
+//	strlen_test();
+//	memset_test();
+//	bzero_test();
+//	memcpy_test();
+//	memmove_test();
+//	strlcpy_test();
+//	strlcat_test();
+//	toupper_test();
+//	tolower_test();
+//	strchr_test();
+//	strrchr_test();
+//	strncmp_test();
+//	memchr_test();
+//	memcmp_test();
+//	strnstr_test();
+//	atoi_test();
+//	calloc_test();
+//	strdup_test();
+//	substr_test();
+//	strjoin_test();
 	strtrim_test();
-	split_test();
+//	split_test();
 	itoa_test();
-	strmapi_test();
-	striteri_test();
-	fd_test();
-	lst_test();
+//	strmapi_test();
+//	striteri_test();
+//	fd_test();
+//	lst_test();
 	return (0);
 }
